@@ -45,7 +45,7 @@
                 Seccion 1
             </h2>
 
-            <h3>Elementos HTML</h3>
+            <h3>Elementos HTML y HTML5</h3>
 
             <div class="table">
 
@@ -280,6 +280,157 @@
             </div>
 
 
+            
+        <div id="titulillo2"><h2>CSS</h2>
+            <div class="parrafo_normal">
+                Los textos afectados por el código CSS de los siguiente ejemplos irán ubicados dentro de un <span class="verde"><b>&lt;div&gt;</b></span> o <span class="verde"><b>&lt;span&gt;</b></span>, excepto en los casos en los que se indique lo contrario (como por ejemplo utilizando '<b>text-align</b>').
+            </div>
+
+            <article class="bloque">
+                <div id="izquierda">
+                    <div class="titulillo2"><h2>Color del texto</h2></div>
+
+                    <b>color</b>: #1162ac;<br>	
+                    <b>color</b>: chocolate;<br>
+                </div>
+                <div id="derecha">
+                    Cambia el color del texto.<br>
+                    Se puede especificar con el código hexadecimal del color (utilizando el prefijo <b>#</b>) o con el nombre de color (olive, gold, chocolate...). (Más información en el módulo 5).<p>
+                    <span style="color:#1162ac;font-size:18px">Texto color:#1162ac;</span><br>
+                    <span style="color:chocolate;font-size:18px">Texto color:chocolate;</span><br>
+                </div>
+            </article>
+
+            <article class="bloque">
+                <div id="izquierda">
+                    <div class="titulillo2">Tipografía</div>
+                <div>
+                    <b>font-family</b>: helvetica;<br>
+                    <b>font-family</b>: charlemagne;<br>
+                </div>
+                <div id="derecha">
+                    Utiliza una tipografía determinada.<br>
+                    Si la fuente no es de sistema se debe añadir el fichero ttf/otf y realizar una vinculación con la misma.<br>
+                    (Tratado en el <b>tema 9</b> del módulo 2).<br>
+                </div>
+            </article>
+
+            <article class="bloque">
+                <div id="izquierda">
+                    <div class="titulillo2">Tamaño del texto:
+                    </div>
+                    <b>font-size</b>: 20px;<br>
+                    <b>font-size</b>: 2em;<br>
+                </div>
+                <div id="derecha">
+                    Define el tamaño del texto.<br>
+                    Se puede definir con un tamaño fijo (expresado en píxeles: <b>px</b>), o con un tamaño escalable (<b>em</b>), que indica la proporción respecto al tamaño inicial de la fuente (2em equivale al doble del tamaño inicial).<p>
+                    <span style="font-size:20px">Tamaño fijo: 20px</span><br>
+                    <span style="font-size:2em">Tamaño escalable: 2em</span><br>
+                </div>
+            </article>
+
+            <article class="bloque">
+                <div id="izquierda">
+                    <div class="titulillo2">
+                        Estilo 'negrita':
+                    </div>
+                    <b>font-weight</b>: bold;<br>
+                </div>
+                <div id="derecha">
+                    Define con CSS el estilo 'negrita' de un texto.<br>
+                    Aunque el estilo 'negrita' se puede especificar con código HTML a través de la etiqueta <b>&lt;b&gt;</b>, con CSS también podemos utilizar esta propiedad de una manera mucho más eficiente.<p>
+                    <span style="font-size:17px;font-weight:bold">Negrita</span><br>
+                </div>
+            </article>
+
+            <article class="bloque">
+                <div id="izquierda">
+                    <div class="titulillo2">
+                        Sombra de un texto:
+                    </div>
+                    <b>text-shadow</b>: 2px 4px 6px #1162ac;<br>
+
+                </div>
+                <div id="derecha">
+                    Define una sombra que afecta a un texto a través de 4 parámetros (separación horizontal, separación vertical, suavidad y color).<br>
+                    El color se puede especificar con código hexadecimal o con el nombre del color (olive, gold, silver...)<p>
+                    <span style="font-size:17px;text-shadow:2px 4px 6px #1162ac">Texto con sombra</span><br>
+                </div>
+            </article>
+
+
+            <article class="bloque">
+                <div id="izquierda">
+                    <div class="titulillo2">
+                        Alineación de un texto:
+                    </div>
+                    <b>text-align</b>: center;<br>
+                    <b>text-align</b>: right;<br>
+
+                </div>
+                <div id="derecha">
+                    Para definir la alineación de un texto, este debe estar contenido dentro de una caja (&lt;div&gt;, &lt;section&gt;...)<br>
+                    Los valores pueden ser 'left', 'right', 'center' o ' justify'.<p>
+                    <div id="ejemplo1">Texto centrado (center)</div>
+                    <div id="ejemplo2">Texto alineado a la derecha (right)</div>
+                </div>
+            </article>
+
+            <article class="bloque">
+                <div id="izquierda">
+                    <div class="titulillo2">
+                        Centrado vertical:
+                    </div>
+                <b>line-height</b>: 70px;<br>
+
+                </div>
+                <div id="derecha">
+                    Sirve para definir la altura de la línea donde se muestra un texto y por lo tanto para centrarlo verticalmente.<br>
+                    El texto sólo puede ocupar una única línea y debe estar contenido dentro de un &lt;div&gt;.<p><br>
+                </div>
+            </article>
+
+
+            <article class="bloque">
+                <div id="izquierda">
+                    <div class="titulillo2">
+                        Espacio entre letras:
+                    </div>
+                <b>letter-spacing</b>: 3px;<br>
+                <b>letter-spacing</b>: -1px;<br>
+
+                </div>
+                <div id="derecha">
+                    Define el espacio entre letras.<br>
+                    Un valor positivo las aleja entre ellas, mientras que un valor negativo las acerca.<p>
+                    <span style="font-size:17px;letter-spacing:3px">Espacio de 3px</span><br>
+                    <span style="font-size:17px;letter-spacing:-1px">Espacio de -1px</span><br>
+                    
+                </div>
+            </article>
+
+            <article class="bloque">
+                <div id="izquierda">
+                    <div class="titulillo2">
+                        Espacio entre palabras:
+                    </div>
+                <b>word-spacing</b>: 10px;<br>
+                <b>word-spacing</b>: -5px;<br>
+
+                </div>
+                <div id="derecha">
+                    Define el espacio entre palabras.<br>
+                    Un valor positivo las aleja entre ellas, mientras que un valor negativo las acerca.<p>
+                    <span style="font-size:17px;word-spacing:10px">Espacio entre diferentes palabras de 10px</span><br>
+                    <span style="font-size:17px;word-spacing:-5px">Espacio entre diferentes palabras de -5px</span><br>		
+                </div>
+            </article>
+
+        </div>
+
+
+
             <h3>
                 Referencias:
             </h3>
@@ -287,6 +438,7 @@
                 https://www.arkaitzgarro.com/xhtml/capitulo-3.html
                 <br> https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address
                 <br> https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos
+                <br> https://www.html6.es/t3_2_propiedades.html
             </p>
 
         </div>
