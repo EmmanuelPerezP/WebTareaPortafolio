@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   width: 100%;
@@ -10,9 +14,13 @@ body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
 
+header a {
+  color: #ffffff;
+}
+
 a {
   font-size: 1.2rem;
-  color: #ffffff;
+  color: black;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
@@ -58,9 +66,39 @@ p {
   margin-bottom: 20px;
 }
 
-a {
-
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
 }
+
+/* Create three equal columns that sits next to each other */
+.col {
+  flex: 1;
+  padding: 10px;
+  align-items: center;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+.img-flag {
+  height: 5rem;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
 
 header.masthead {
   position: relative;
@@ -74,6 +112,8 @@ header.masthead {
 
 .container {
   padding: 2rem;
+  flex:1;
+  align-self: center;
 }
 
 .img {
@@ -84,3 +124,6 @@ header.masthead {
   border-radius: 15rem;
   width: 15rem;
 }
+
+
+

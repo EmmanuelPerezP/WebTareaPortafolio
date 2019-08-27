@@ -2,488 +2,119 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 
-    <title>Portafolio tarea webdev TEC</title>
+  <title>Portafolio tarea webdev TEC</title>
 </head>
 
 <body>
 
-    <header class="masthead">
-        <div class="container">
-            <h1>
-                IC8057 Introducción al desarrollo de aplicaciones WEB IISem 2019
-            </h1>
-
-            <p>
-                Nombre: Emmanuel Perez Perez
-            </p>
-            <p>
-                Carnet: 2015066993
-            </p>
-            <img class="img-profile" src="square-tiny.jpg" alt="imagen de perfil">
-            <p>
-                Correo electrónico:
-                <a href="mailto:emmanuelperezp@gmail.com">
-                  emmanuelperezp@gmail.com
-                </a>
-            </p>
-            <p>
-                Telefono:
-                <a href="tel:+50687186383">(506) 8718-6383</a>
-            </p>
+  <header class="masthead">
+    <div class="container">
+      <div class="row">
+        <h1>
+          IC8057 Introducción al desarrollo de aplicaciones WEB IISem 2019
+        </h1>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img class="img-profile" src="square-tiny.jpg" alt="imagen de perfil">
         </div>
-    </header>
-
-    <section>
-        <div class="container">
-            <h2>
-                Seccion 1
-            </h2>
-
-            <h3>Elementos HTML y HTML5</h3>
-
-            <div class="table">
-
-                <table>
-                    <thead>
-                        <tr>
-                            <th align="right">Atributos</th>
-                            <th align="left">Descripción</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td align="right"><code>a</code></td>
-                            <td align="left">Define un anchor (anclaje o hipervínculo)</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>abbr</code></td>
-                            <td align="left">Marca las abreviaturas del texto y proporciona el significado de esas abreviaturas</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>acronym</code></td>
-                            <td align="left">Marca las siglas o acrónimos del texto y proporciona el significado de esas siglas</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>b</code></td>
-                            <td align="left">Indica que el texto debe ser representado e <em>bold</em> (o negrita)</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>basefont</code></td>
-                            <td align="left">Permite cambiar algunas propiedades del texto</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>bdo</code></td>
-                            <td align="left">Anulación del algoritmo bidireccional (en referencia a la dirección de la escritura)</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>big</code></td>
-                            <td align="left">Muestra el texto marcado con un tamaño de fuente más grande</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>br</code></td>
-                            <td align="left"><em>line break</em> - ruptura (o salto) de línea</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>cite</code></td>
-                            <td align="left">Se emplea para marcar una cita o una referencia a otras fuentes</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>code</code></td>
-                            <td align="left">Delimita el texto considerado un fragmento de código fuente</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>dfn</code></td>
-                            <td align="left">Marca las definiciones de ciertos términos y proporciona el significado de éstos</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>em</code></td>
-                            <td align="left"><em>emphasis</em> – énfasis</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>font</code></td>
-                            <td align="left">Indica el tamaño, color, o fuente del texto que contiene</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>i</code></td>
-                            <td align="left">Muestra el texto marcado con un estilo en <em>cursiva</em> o itálica</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>img</code></td>
-                            <td align="left">Imagen</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>input</code></td>
-                            <td align="left">Posibilita y define la introducción de datos en el formulario</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>kbd</code></td>
-                            <td align="left">Indicar al usuario el texto que debe introducir</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>label</code></td>
-                            <td align="left">Asocia un rótulo o etiqueta a un campo de un formulario</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>q</code></td>
-                            <td align="left"><em>short quotations</em> - cita corta</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>s</code></td>
-                            <td align="left"><em>strike-through</em> - tachado</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>samp</code></td>
-                            <td align="left">Sirve identificar una muestra de los caracteres que forman la salida o el resultado de algún proceso</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>select</code></td>
-                            <td align="left">Crea un contenedor mediante el cual el usuario puede seleccionar de una lista de opciones</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>small</code></td>
-                            <td align="left">Aplica al texto marcado un tamaño de fuente más pequeño</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>span</code></td>
-                            <td align="left">Es un contenedor genérico en línea. Sirve para para aplicar estilo al texto o agrupar elementos en línea</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>strike</code></td>
-                            <td align="left">Muestra el texto tachado con una linea horizontal</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>strong</code></td>
-                            <td align="left">Marca con especial énfasis las partes más importantes de un texto</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>sub</code></td>
-                            <td align="left">Crea un subíndice posicionando el texto marcado por debajo de la linea</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>sup</code></td>
-                            <td align="left">Crea un superíndice posicionando el texto marcado por encima de la linea</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>textarea</code></td>
-                            <td align="left">Crea un control de entrada de texto multilínea</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>tt</code></td>
-                            <td align="left">Representa como texto de teletipo o ancho fijo</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>u</code></td>
-                            <td align="left">Muestra el texto subrayado</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>var</code></td>
-                            <td align="left">Marca variables de programas y similares</td>
-                        </tr>
-                    </tbody>
-                </table>
-
-            </div>
-
-            <div class="table">
-                <table>
-                    <thead>
-                        <tr>
-                            <th align="right">Atributos</th>
-                            <th align="left">Descripción</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td align="right"><code>address</code></td>
-                            <td align="left">Contiene la información de contacto con los autores del documento</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>blockquote</code></td>
-                            <td align="left">Indica que el texto que encierra es una cita textual de otro texto externos</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>center</code></td>
-                            <td align="left">Crea una caja en bloque con el contenido centrado</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>dir</code></td>
-                            <td align="left">Crea listas multicolumna de directorios</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>div</code></td>
-                            <td align="left">Es un elemento en bloque genérico y sirve para crear secciones o agrupar contenidos</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>dl</code></td>
-                            <td align="left">Crea una lista de definiciones</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>fieldset</code></td>
-                            <td align="left">Permite organizar en grupos los campos de un formulario</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>form</code></td>
-                            <td align="left">Actúa como contenedor de controles. Representa un formulario</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>h1</code>, <code>h2</code>, <code>h3</code>, <code>h4</code>, <code>h5</code>, <code>h6</code></td>
-                            <td align="left">Crea un encabezado o título de primer, segundo, tercer, cuarto, quinto o sexto nivel para una sección del documento respectivamente</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>hr</code></td>
-                            <td align="left">Crea una linea de separación horizontal</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>isindex</code></td>
-                            <td align="left">Crea un control de entrada de texto de una línea</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>menu</code></td>
-                            <td align="left">Crea un menú</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>noframes</code></td>
-                            <td align="left">(sin marcos) - aporta contenidos alternativos a los marcos</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>nos-cript</code></td>
-                            <td align="left">Contenedor de contenido alternativo para la representación no basada en <em>scripts</em></td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>ol</code></td>
-                            <td align="left">Crea una lista ordenada</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>p</code></td>
-                            <td align="left">Párrafo</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>pre</code></td>
-                            <td align="left">Permite que el texto conserve el formato y sea mostrado tal cual</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>table</code></td>
-                            <td align="left">Tabla</td>
-                        </tr>
-                        <tr>
-                            <td align="right"><code>ul</code></td>
-                            <td align="left">Crea una lista no ordenada</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-
-            
-        <div id="titulillo2"><h2>CSS</h2>
-            <div class="parrafo_normal">
-                Los textos afectados por el código CSS de los siguiente ejemplos irán ubicados dentro de un <span class="verde"><b>&lt;div&gt;</b></span> o <span class="verde"><b>&lt;span&gt;</b></span>, excepto en los casos en los que se indique lo contrario (como por ejemplo utilizando '<b>text-align</b>').
-            </div>
-
-            <article class="bloque">
-                <div id="izquierda">
-                    <div class="titulillo2"><h2>Color del texto</h2></div>
-
-                    <b>color</b>: #1162ac;<br>	
-                    <b>color</b>: chocolate;<br>
-                </div>
-                <div id="derecha">
-                    Cambia el color del texto.<br>
-                    Se puede especificar con el código hexadecimal del color (utilizando el prefijo <b>#</b>) o con el nombre de color (olive, gold, chocolate...). (Más información en el módulo 5).<p>
-                    <span style="color:#1162ac;font-size:18px">Texto color:#1162ac;</span><br>
-                    <span style="color:chocolate;font-size:18px">Texto color:chocolate;</span><br>
-                </div>
-            </article>
-
-            <article class="bloque">
-                <div id="izquierda">
-                    <div class="titulillo2">Tipografía</div>
-                <div>
-                    <b>font-family</b>: helvetica;<br>
-                    <b>font-family</b>: charlemagne;<br>
-                </div>
-                <div id="derecha">
-                    Utiliza una tipografía determinada.<br>
-                    Si la fuente no es de sistema se debe añadir el fichero ttf/otf y realizar una vinculación con la misma.<br>
-                    (Tratado en el <b>tema 9</b> del módulo 2).<br>
-                </div>
-            </article>
-
-            <article class="bloque">
-                <div id="izquierda">
-                    <div class="titulillo2">Tamaño del texto:
-                    </div>
-                    <b>font-size</b>: 20px;<br>
-                    <b>font-size</b>: 2em;<br>
-                </div>
-                <div id="derecha">
-                    Define el tamaño del texto.<br>
-                    Se puede definir con un tamaño fijo (expresado en píxeles: <b>px</b>), o con un tamaño escalable (<b>em</b>), que indica la proporción respecto al tamaño inicial de la fuente (2em equivale al doble del tamaño inicial).<p>
-                    <span style="font-size:20px">Tamaño fijo: 20px</span><br>
-                    <span style="font-size:2em">Tamaño escalable: 2em</span><br>
-                </div>
-            </article>
-
-            <article class="bloque">
-                <div id="izquierda">
-                    <div class="titulillo2">
-                        Estilo 'negrita':
-                    </div>
-                    <b>font-weight</b>: bold;<br>
-                </div>
-                <div id="derecha">
-                    Define con CSS el estilo 'negrita' de un texto.<br>
-                    Aunque el estilo 'negrita' se puede especificar con código HTML a través de la etiqueta <b>&lt;b&gt;</b>, con CSS también podemos utilizar esta propiedad de una manera mucho más eficiente.<p>
-                    <span style="font-size:17px;font-weight:bold">Negrita</span><br>
-                </div>
-            </article>
-
-            <article class="bloque">
-                <div id="izquierda">
-                    <div class="titulillo2">
-                        Sombra de un texto:
-                    </div>
-                    <b>text-shadow</b>: 2px 4px 6px #1162ac;<br>
-
-                </div>
-                <div id="derecha">
-                    Define una sombra que afecta a un texto a través de 4 parámetros (separación horizontal, separación vertical, suavidad y color).<br>
-                    El color se puede especificar con código hexadecimal o con el nombre del color (olive, gold, silver...)<p>
-                    <span style="font-size:17px;text-shadow:2px 4px 6px #1162ac">Texto con sombra</span><br>
-                </div>
-            </article>
-
-
-            <article class="bloque">
-                <div id="izquierda">
-                    <div class="titulillo2">
-                        Alineación de un texto:
-                    </div>
-                    <b>text-align</b>: center;<br>
-                    <b>text-align</b>: right;<br>
-
-                </div>
-                <div id="derecha">
-                    Para definir la alineación de un texto, este debe estar contenido dentro de una caja (&lt;div&gt;, &lt;section&gt;...)<br>
-                    Los valores pueden ser 'left', 'right', 'center' o ' justify'.<p>
-                    <div id="ejemplo1">Texto centrado (center)</div>
-                    <div id="ejemplo2">Texto alineado a la derecha (right)</div>
-                </div>
-            </article>
-
-            <article class="bloque">
-                <div id="izquierda">
-                    <div class="titulillo2">
-                        Centrado vertical:
-                    </div>
-                <b>line-height</b>: 70px;<br>
-
-                </div>
-                <div id="derecha">
-                    Sirve para definir la altura de la línea donde se muestra un texto y por lo tanto para centrarlo verticalmente.<br>
-                    El texto sólo puede ocupar una única línea y debe estar contenido dentro de un &lt;div&gt;.<p><br>
-                </div>
-            </article>
-
-
-            <article class="bloque">
-                <div id="izquierda">
-                    <div class="titulillo2">
-                        Espacio entre letras:
-                    </div>
-                <b>letter-spacing</b>: 3px;<br>
-                <b>letter-spacing</b>: -1px;<br>
-
-                </div>
-                <div id="derecha">
-                    Define el espacio entre letras.<br>
-                    Un valor positivo las aleja entre ellas, mientras que un valor negativo las acerca.<p>
-                    <span style="font-size:17px;letter-spacing:3px">Espacio de 3px</span><br>
-                    <span style="font-size:17px;letter-spacing:-1px">Espacio de -1px</span><br>
-                    
-                </div>
-            </article>
-
-            <article class="bloque">
-                <div id="izquierda">
-                    <div class="titulillo2">
-                        Espacio entre palabras:
-                    </div>
-                <b>word-spacing</b>: 10px;<br>
-                <b>word-spacing</b>: -5px;<br>
-
-                </div>
-                <div id="derecha">
-                    Define el espacio entre palabras.<br>
-                    Un valor positivo las aleja entre ellas, mientras que un valor negativo las acerca.<p>
-                    <span style="font-size:17px;word-spacing:10px">Espacio entre diferentes palabras de 10px</span><br>
-                    <span style="font-size:17px;word-spacing:-5px">Espacio entre diferentes palabras de -5px</span><br>		
-                </div>
-            </article>
-
+        <div class="col">
+          <p>
+            Nombre: Emmanuel Perez Perez
+          </p>
+          <p>
+            Carnet: 2015066993
+          </p>
+          <p>
+            Correo electrónico:
+            <a href="mailto:emmanuelperezp@gmail.com">
+              emmanuelperezp@gmail.com
+            </a>
+          </p>
+          <p>
+            Telefono:
+            <a href="tel:+50687186383">(506) 8718-6383</a>
+          </p>
         </div>
 
+      </div>
+    </div>
+  </header>
 
-
-            <h3>
-                Referencias:
-            </h3>
-            <p>
-                https://www.arkaitzgarro.com/xhtml/capitulo-3.html
-                <br> https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address
-                <br> https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos
-                <br> https://www.html6.es/t3_2_propiedades.html
-            </p>
-
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>
+            Seccion 1
+          </h2>
         </div>
-    </section>
-
-    <section>
-        <div class="container">
-            <h2>
-                Seccion 2
-            </h2>
-
-            <h3>
-                A01-¿Full or Specialist WebDev?
-            </h3>
-
-            <!-- Usar object y embed para mejor compatibilidad https://stackoverflow.com/a/23681394 -->
-            <object data="articulo1.pdf" type="application/pdf" width="750px" height="750px">
-        <embed src="articulo1.pdf" type="application/pdf">
-            <p>This browser does not support PDFs. Please download the PDF to view it: <a href="articulo1.pdf">Download PDF</a>.</p>
-        </embed>
-      </object>
-
-            <h3>
-                A02-Internet Evolution Timeline.
-            </h3>
-
-            <img class="img" src="timeline.jpg" alt="timeline of the internet">
-
+      </div>
+      <div class="row">
+        <div class="col">
+          <a href="/A04-Sintaxis-HTML5-CSS3/">A04 Sintaxis HTML5 CSS3</a>
+          <br>
+          <a href="/A05-Calendario/">A05 Calendario</a>
+          <br>
+          <a href="/A05-Conversor/">A05 Conversor</a>
         </div>
+      </div>
+    </div>
+  </section>
 
-    </section>
-
-    <section>
-        <div class="container">
-
-            <h2>
-                Seccion 3
-            </h2>
-
-            <p>
-                Links
-            </p>
-
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>
+            Seccion 2
+          </h2>
         </div>
-    </section>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <a href="articulo1.pdf">
+            A01-¿Full or Specialist WebDev?
+          </a>
+          <br>
+          <a href="timeline.jpg">
+            A02-Internet Evolution Timeline.
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>
+            Seccion 3
+          </h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <a href="articulo1.pdf">
+            A01-¿Full or Specialist WebDev?
+          </a>
+          <br>
+          <a href="timeline.jpg">
+            A02-Internet Evolution Timeline.
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
